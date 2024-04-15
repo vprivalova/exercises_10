@@ -10,7 +10,7 @@ class Circle:
         space = (self.radius**2) * Circle.pi
         return space
 
-    def __str__(self):
+    def __repr__(self):
         return str(self.radius)
 
     @staticmethod
